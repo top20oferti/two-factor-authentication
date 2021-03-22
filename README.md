@@ -18,7 +18,7 @@ Two Factor Authentication or 2-Step Verification provides stronger security for 
 **1. Composer Install**
 
 ```bash
-$ composer require thecodework/two-factor-authentication
+$ composer require top20ofe/two-factor-authentication
 ```
 *Note* - If your're using Laravel 5.5 or newer version then auto-discovery-pacakge would automatically update the providers and you could skip to **Step 3**  
 
