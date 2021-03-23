@@ -1,6 +1,6 @@
 <?php
 
-namespace Thecodework\TwoFactorAuthentication;
+namespace Top20ofe\TwoFactorAuthentication;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;

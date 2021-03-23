@@ -13,8 +13,8 @@
     ],
     "authors": [
         {
-            "name": "Ashish Singh",
-            "email": "imrealashu@gmail.com"
+            "name": "Top20ofe",
+            "email": "top20@top20oferti.bg"
         }
     ],
     "require": {
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Thecodework\\TwoFactorAuthentication\\": "src/"
+            "Top20ofe\\TwoFactorAuthentication\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Thecodework\\TwoFactorAuthentication\\Tests\\": "tests/"
+            "Top20ofe\\TwoFactorAuthentication\\Tests\\": "tests/"
         }
     },
     "require-dev": {
@@ -43,7 +43,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Thecodework\\TwoFactorAuthentication\\TwoFactorAuthenticationServiceProvider"
+                "Top20ofe\\TwoFactorAuthentication\\TwoFactorAuthenticationServiceProvider"
             ]
         }
     }

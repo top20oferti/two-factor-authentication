@@ -1,6 +1,6 @@
 <?php
 
-namespace Thecodework\TwoFactorAuthentication\Tests;
+namespace Top20ofe\TwoFactorAuthentication\Tests;
 
 use Illuminate\Support\Facades\Schema;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Thecodework\TwoFactorAuthentication\Http\Controllers;
+namespace Top20ofe\TwoFactorAuthentication\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

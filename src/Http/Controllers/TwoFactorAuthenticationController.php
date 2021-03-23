@@ -1,16 +1,16 @@
 <?php
 
-namespace Thecodework\TwoFactorAuthentication\Http\Controllers;
+namespace Top20ofe\TwoFactorAuthentication\Http\Controllers;
 
 use Endroid\QrCode\QrCode;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Schema;
 use OTPHP\TOTP;
 use ParagonIE\ConstantTime\Base32;
-use Thecodework\TwoFactorAuthentication\AuthenticatesUsersWith2FA;
-use Thecodework\TwoFactorAuthentication\Contracts\TwoFactorAuthenticationInterface;
-use Thecodework\TwoFactorAuthentication\Exceptions\TwoFactorAuthenticationExceptions;
-use Thecodework\TwoFactorAuthentication\TwoFactorAuthenticationServiceProvider;
+use Top20ofe\TwoFactorAuthentication\AuthenticatesUsersWith2FA;
+use Top20ofe\TwoFactorAuthentication\Contracts\TwoFactorAuthenticationInterface;
+use Top20ofe\TwoFactorAuthentication\Exceptions\TwoFactorAuthenticationExceptions;
+use Top20ofe\TwoFactorAuthentication\TwoFactorAuthenticationServiceProvider;
 
 class TwoFactorAuthenticationController extends Controller implements TwoFactorAuthenticationInterface
 {
@@ -43,7 +43,7 @@ class TwoFactorAuthenticationController extends Controller implements TwoFactorA
      * @param \Illuminate\Http\Request
      * @param \Illuminate\Http\Response
      *
-     * @throws \Thecodework\TwoFactorAuthentications\Exceptions\TwoFactorAuthenticationExceptions
+     * @throws \Top20ofe\TwoFactorAuthentications\Exceptions\TwoFactorAuthenticationExceptions
      *
      * @return mixed
      */

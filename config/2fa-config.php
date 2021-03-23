@@ -22,7 +22,7 @@ return [
      * Account name which will be used as label to show on
      * authenticator mobile application.
      */
-    'account_name' => 'Thecodework 2FA',
+    'account_name' => 'Top20ofe 2FA',
 
     /*
      * Set Guard for 2FA

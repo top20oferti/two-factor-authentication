@@ -1,6 +1,6 @@
 <?php
 
-namespace Thecodework\TwoFactorAuthentication\Tests;
+namespace Top20ofe\TwoFactorAuthentication\Tests;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -17,7 +17,7 @@ class BaseTestCase extends TestCase
     protected function getPackageProviders($app)
     {
         return [
-            \Thecodework\TwoFactorAuthentication\TwoFactorAuthenticationServiceProvider::class,
+            \Top20ofe\TwoFactorAuthentication\TwoFactorAuthenticationServiceProvider::class,
         ];
     }
 
