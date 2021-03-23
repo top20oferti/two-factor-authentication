@@ -1,6 +1,6 @@
 <?php
 
-namespace Thecodework\TwoFactorAuthentication;
+namespace Top20ofe\TwoFactorAuthentication;
 
 //use Auth;
 use Illuminate\Support\Facades\Auth;

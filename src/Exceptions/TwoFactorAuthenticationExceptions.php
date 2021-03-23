@@ -1,6 +1,6 @@
 <?php
 
-namespace Thecodework\TwoFactorAuthentication\Exceptions;
+namespace Top20ofe\TwoFactorAuthentication\Exceptions;
 
 class TwoFactorAuthenticationExceptions extends \Exception
 {

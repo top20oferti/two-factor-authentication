@@ -1,6 +1,6 @@
 <?php
 
-namespace Thecodework\TwoFactorAuthentication\Contracts;
+namespace Top20ofe\TwoFactorAuthentication\Contracts;
 
 use Illuminate\Http\Request;
 
